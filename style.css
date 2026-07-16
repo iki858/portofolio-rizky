@@ -131,7 +131,7 @@ h1, h2, h3{
 #profile{
     background:
         linear-gradient(180deg, rgba(15,17,22,0.55) 0%, rgba(15,17,22,0.9) 100%),
-        url(background.jpg);
+        url(image/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
