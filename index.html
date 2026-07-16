@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Muhammad Rizky Hidayat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#profile">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO / PROFILE -->
+    <section id="profile">
+        <div class="img-card">
+            <img src="image/profile.png" alt="Foto profil Muhammad Rizky Hidayat">
+        </div>
+        <div class="card-profile">
+            <h3>Portofolio</h3>
+            <h1>Muhammad Rizky Hidayat</h1>
+            <p class="role-tag">Software Developer &mdash; Mahasiswa Universitas Metamedia</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Lihat Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="card-about">
+            <span class="eyebrow">01 &mdash; Tentang</span>
+            <h1>About Me</h1>
+            <div class="card-abouts">
+                <div class="text-about">
+                    <p>Halo, perkenalkan nama saya Muhammad Rizky Hidayat, mahasiswa Universitas Metamedia yang sedang fokus mengembangkan kemampuan di bidang programming. Saya senang belajar hal baru, mengerjakan project kecil dari awal sampai selesai, dan terus memperdalam skill lewat kursus maupun sertifikasi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+        <span class="eyebrow">02 &mdash; Pengalaman</span>
+        <h1>Pengalaman & Organisasi</h1>
+        <div class="exp-card">
+            <div class="exp-header">
+                <div>
+                    <h2>Wakil Ketua & Mentor Utama HTML/CSS</h2>
+                    <p class="exp-org">Komunitas Kafe Koding</p>
+                </div>
+                <span class="exp-period">Sekarang</span>
+            </div>
+            <ul class="project-points">
+                <li>Menjabat sebagai wakil ketua komunitas, membantu koordinasi kegiatan belajar bersama antar anggota</li>
+                <li>Dipercaya sebagai mentor utama untuk materi HTML & CSS, mengajar dan membimbing anggota lain dari dasar</li>
+                <li>Menyusun materi belajar dan mendampingi peserta dalam praktik langsung membangun halaman web</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <span class="eyebrow">03 &mdash; Kemampuan</span>
+        <h1>Skills</h1>
+        <div class="skills-grid">
+            <div class="skill-group">
+                <h3>Bahasa & Framework</h3>
+                <div class="tag-list">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">PHP</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">C++</span>
+                    <span class="tag">Laravel</span>
+                </div>
+            </div>
+            <div class="skill-group">
+                <h3>Tools</h3>
+                <div class="tag-list">
+                    <span class="tag">Git & GitHub</span>
+                    <span class="tag">VS Code</span>
+                    <span class="tag">Figma</span>
+                </div>
+            </div>
+            <div class="skill-group">
+                <h3>Lainnya</h3>
+                <div class="tag-list">
+                    <span class="tag">Problem Solving</span>
+                    <span class="tag">Basic AI/ML</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <span class="eyebrow">04 &mdash; Karya</span>
+        <h1>Project</h1>
+        <div class="project-card">
+            <div class="project-gallery">
+                <div class="project-shot">
+                    <img src="image/login.png" alt="Screenshot Amanda Cafe - halaman login">
+                </div>
+                <div class="project-shot">
+                    <img src="image/kasir_dashboard.png" alt="Screenshot Amanda Cafe - dashboard">
+                </div>
+                <div class="project-shot">
+                    <img src="image/pemesanan.png" alt="Screenshot Amanda Cafe - halaman pesanan">
+                </div>
+            </div>
+            <div class="project-info">
+                <h2>Amanda Cafe &mdash; Sistem Pemesanan Kafe Multi-Role</h2>
+                <p class="project-desc">
+                    Sistem pemesanan online untuk kafe yang mengatur alur order dari awal sampai pengiriman, melibatkan 4 peran pengguna berbeda dalam satu sistem: Pelanggan, Kasir (sekaligus super admin), Chef, dan Delivery.
+                </p>
+                <ul class="project-points">
+                    <li>Peran saya: merancang dan membangun keseluruhan sistem, dari database, backend Laravel, hingga alur kerja tiap role</li>
+                    <li>Tantangan: mengatur hak akses dan tampilan berbeda untuk 4 role dalam satu sistem (role-based access), memastikan tiap peran hanya bisa mengakses fitur yang relevan dengan tugasnya</li>
+                    <li>Alur sistem: Pelanggan memesan &rarr; Kasir memvalidasi & mengelola pesanan sebagai super admin &rarr; Chef menyiapkan pesanan &rarr; Delivery mengantarkan pesanan</li>
+                </ul>
+                <div class="tag-list">
+                    <span class="tag">Laravel</span>
+                    <span class="tag">PHP</span>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">Role-Based Access</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/iki858/Amanda-Cafe" class="btn btn-primary" target="_blank">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section id="certificates">
+        <span class="eyebrow">05 &mdash; Sertifikat</span>
+        <h1>Certifications</h1>
+        <div class="cert-grid">
+            <a class="cert-card" href="https://drive.google.com/file/d/1vi0f_9TVkoyLho7vjXZXfUyfvBp83d1R/view?usp=sharing" target="_blank">
+                <div class="cert-thumb">
+                    <img src="image/sertifikat-nvidia.png" alt="Sertifikat NVIDIA">
+                </div>
+                <div class="cert-caption">
+                    <span class="cert-badge">NVIDIA</span>
+                    <h3>Nama Sertifikat NVIDIA</h3>
+                    <p>NVIDIA Deep Learning Institute &middot; 2025</p>
+                </div>
+            </a>
+            <a class="cert-card" href="https://drive.google.com/file/d/1yJSdDdwZqSAwOmyKJ9-p-vqDhi6AFE0r/view?usp=drive_link" target="_blank">
+                <div class="cert-thumb">
+                    <img src="image/sertifikat-desain.png" alt="Sertifikat Desain Kafekoding">
+                </div>
+                <div class="cert-caption">
+                    <span class="cert-badge">02</span>
+                    <h3>Sertifikat Desain</h3>
+                    <p>Kafekoding &middot; 2025</p>
+                </div>
+            </a>
+            <a class="cert-card" href="https://drive.google.com/file/d/19rgHUROSTS5fXLai6-2Scd0Q7UgYbMWX/view?usp=drive_link" target="_blank">
+                <div class="cert-thumb">
+                    <img src="image/sertifikat-html.png" alt="Sertifikat HTML dan CSS Kafekoding">
+                </div>
+                <div class="cert-caption">
+                    <span class="cert-badge">03</span>
+                    <h3>Sertifikat HTML & CSS</h3>
+                    <p>Kafekoding &middot; 2025</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <span class="eyebrow">06 &mdash; Kontak</span>
+        <h1>Let's Connect</h1>
+        <p class="contact-text">Terbuka untuk peluang magang maupun posisi entry-level di bidang software development.</p>
+        <div class="contact-links">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rizkyhidayat6312@gmail.com" target="_blank">Email</a>
+            <a href="https://github.com/iki858" target="_blank">GitHub</a>
+        </div>
+        <footer>
+            <p>&copy; 2026 Muhammad Rizky Hidayat</p>
+        </footer>
+    </section>
+
+</body>
+</html>
